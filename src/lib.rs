@@ -3,7 +3,7 @@ extern crate serde_derive; // 1.0.110;
 
 #[derive(Serialize, Deserialize)]
 #[repr(u16)]
-pub enum J1939MeterType {
+pub enum MyEnumType {
 Variant0,
 Variant1,
 Variant2,
